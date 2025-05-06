@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
   },
   primevue: {
-    usePrimeVue: false,
+    autoImport: false,
     options: {
       ripple: true,
       theme: {
